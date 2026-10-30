@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Le Mouël;Pierre-Yves;;;
+FN:Pierre-Yves Le Mouël
+ORG:Le Nouy
+TITLE:Représentant technico-commercial
+TEL;TYPE=CELL:+33750730816
+EMAIL;TYPE=WORK:pyves.lemouel@lenouy.fr
+ADR;TYPE=WORK:;;ZI de Rosculec;Briec;;29510;France
+URL:https://www.lenouy.com
+END:VCARD

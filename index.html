@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#303039">
+<title>Pierre-Yves Le Mouël | Le Nouy</title>
+<style>
+:root{--ink:#303039;--muted:#666;--line:#e7e7eb}
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;background:#f3f3f5;color:var(--ink);font-family:Arial,Helvetica,sans-serif;display:grid;place-items:center;padding:24px}
+.card{width:min(100%,430px);background:#fff;border-radius:22px;overflow:hidden;box-shadow:0 14px 45px #20202a18}
+.top{background:var(--ink);color:white;text-align:center;padding:28px 24px 26px}
+.logo{font-size:28px;font-weight:800;letter-spacing:3px}
+.tag{font-size:12px;letter-spacing:1.5px;opacity:.8;margin-top:5px}
+.portrait{width:118px;height:118px;border-radius:50%;object-fit:cover;border:5px solid white;margin-top:22px}
+main{padding:25px 26px 28px;text-align:center}
+h1{font-size:23px;margin:0 0 7px}
+.role{color:var(--muted);font-size:14px;line-height:1.5;margin-bottom:22px}
+.details{border-top:1px solid var(--line);text-align:left;padding-top:12px}
+.item{padding:11px 0;border-bottom:1px solid var(--line);font-size:14px;overflow-wrap:anywhere}
+.item strong{display:block;font-size:10px;text-transform:uppercase;letter-spacing:1px;color:#888;margin-bottom:4px}
+a{color:var(--ink);text-decoration:none}
+.actions{display:grid;gap:10px;margin-top:23px}
+.btn{display:block;padding:14px 16px;border-radius:10px;font-weight:700;font-size:14px}
+.primary{background:var(--ink);color:white}
+.secondary{border:1px solid var(--ink);color:var(--ink)}
+footer{font-size:11px;color:#999;padding:0 20px 20px;text-align:center}
+</style>
+</head>
+<body>
+<article class="card">
+  <header class="top">
+    <div class="logo">LE NOUY</div>
+    <div class="tag">MARQUE D'OUVERTURE</div>
+    <img class="portrait" src="assets/portrait.jpg" alt="Portrait de Pierre-Yves Le Mouël">
+  </header>
+  <main>
+    <h1>Pierre-Yves Le Mouël</h1>
+    <div class="role">Représentant technico-commercial<br>Le Nouy – Fenêtres et fermetures</div>
+    <section class="details">
+      <div class="item"><strong>Téléphone</strong><a href="tel:+33750730816">07 50 73 08 16</a></div>
+      <div class="item"><strong>E-mail</strong><a href="mailto:pyves.lemouel@lenouy.fr">pyves.lemouel@lenouy.fr</a></div>
+      <div class="item"><strong>Adresse</strong>ZI de Rosculec, 29510 Briec</div>
+      <div class="item"><strong>Site internet</strong><a href="https://www.lenouy.com">www.lenouy.com</a></div>
+    </section>
+    <div class="actions">
+      <a class="btn primary" href="contact.vcf" download="Pierre-Yves-Le-Mouel.vcf">Ajouter à mes contacts</a>
+      <a class="btn secondary" href="tel:+33750730816">Appeler</a>
+      <a class="btn secondary" href="mailto:pyves.lemouel@lenouy.fr">Envoyer un e-mail</a>
+    </div>
+  </main>
+  <footer>Carte de visite numérique · Le Nouy</footer>
+</article>
+</body>
+</html>
